@@ -1,0 +1,38 @@
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Development and testing files
+*.bak
+*.swp
+*.swo
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.pdf
+*.xlsx
+*.xls
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
