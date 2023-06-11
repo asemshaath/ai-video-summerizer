@@ -3,7 +3,7 @@ import openai
 from dotenv import load_dotenv
 load_dotenv()
 
-openai.organization = "org-kptX8Ha4UeDDlVl9LhWgnpoH"
+openai.organization = os.getenv('OPENAI_ORG')
 openai.api_key = os.getenv('OPENAI_API_KEY')
 openai.Model.list()
 
